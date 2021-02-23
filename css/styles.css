@@ -9,7 +9,6 @@
 
 }
 
-
 body { 
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
@@ -210,4 +209,52 @@ h2 {
     .title-left {
         margin-bottom: 0;
     }
+    
+    .footer-icon {
+        font-size: 3rem;
+        padding-right: 5%;
+        padding-bottom: 2%;
+    }
+
+    #features {
+        font-size: 1.7rem;
+    }
+    
+    .feature-heading {
+        font-size: 2.5rem;
+    }
+    .maintext {
+        font-size: 5rem;
+    }
+    
+    .nav-link {
+        font-size: 2rem;
+        text-align: right;
+        /* display: inline-block; */
+    }
+    
+    .copyright {
+        font-size: 1.5rem;
+    }
+
+    #pricing p {
+        font-size: 1.5rem;
+    }
+    .download-button, .download-button-footer {
+        padding : 2% 3%;
+        font-size : 1.6rem;
+    }
+
+    .pricing-col button {
+        font-size: 1.6rem;
+    }
+
+    .pricing-sub {
+        margin-bottom: 6%;
+    }
+
+    .card-header h3 {
+        font-size: 2.5rem;
+    }
+
 }
