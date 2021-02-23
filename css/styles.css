@@ -1,0 +1,213 @@
+::-moz-selection { /* Code for Firefox */
+  background: #343a40;
+  color: #fff;
+}
+
+::selection {
+  background: #343a40;
+  color: #fff;
+
+}
+
+
+body { 
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.maintext {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+#title {
+    color : #fff;
+    background-color: #ff4c68;  
+    text-align: left;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.brand-name {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+/* Download button */
+
+.download-button {
+    margin: 5% 5% 5% 0;
+}
+
+/* Title Image */
+.title-img {
+    width: 70%;
+    transform: rotate(15deg);
+    margin-left: 15%;
+    position: absolute;
+    z-index: 0;
+}
+
+.title-left {
+    margin-bottom: 130px;
+}
+
+/* Features */
+#features {
+    position: relative;
+    z-index: 1;
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+.fa-check-circle {
+    color: #ef8172;
+    font-size: 4.5em;
+    margin-bottom: 10px;
+}
+
+.fa-check-circle:hover, .fa-bullseye:hover, .fa-heart:hover {
+    color: #ff4c68;
+    font-size: 5.2em;
+}
+
+.fa-bullseye {
+    color: #ef8172;
+    font-size: 4.5em;
+    margin-bottom: 10px;
+}
+
+.fa-heart {
+    color: #ef8172;
+    font-size: 4.5em;
+    margin-bottom: 10px;
+}
+
+.feature-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size:  1.5rem;
+    padding-top: 5%;
+}
+
+.feature-description {
+    padding: 0 7%;
+    color: #8f8f8f;
+}
+
+.feature-box {
+    padding: 5% 0;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.price-btn {
+    width: 100%;
+    /* or use class="btn-block" in html */
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+/* Footer and CTA */
+#cta {
+    background-color: #ff4c68;
+}
+
+.cta-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    padding: 7% 12% 3% 12%;
+    color: #fff;
+}
+
+.download-button-footer {
+    margin: 0 1% 5% 1%;
+}
+
+#footer {
+    padding: 5%;
+}
+
+.footer-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.copyright {
+    color: #8f8f8f;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+
+@media (max-width: 1090px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        margin-left: 0;
+        position: static;
+        transform: rotate(0);
+    }
+
+    .title-left {
+        margin-bottom: 0;
+    }
+}
